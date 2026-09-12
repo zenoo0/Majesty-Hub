@@ -444,7 +444,7 @@ export const products = [
       "Sink & Bathtub Drains",
       "Sink Drains",
     ],
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=900&h=900&fit=crop&auto=format&q=80",
+    image: "/products/elivo-sink-drain-strainer.jpg",
     colors: ["Silver"],
     description:
       "A 2-pack bathroom sink drain strainer and pop-up stopper that locks tightly to stop leaks while catching hair and debris before it clogs your pipes. 2.90 x 2.30 x 1.25 inches, fits most standard 1.25–1.45 inch drain grooves.",
@@ -468,7 +468,7 @@ export const products = [
   {
     id: "tekloem-gold-pop-up-sink-drain",
     title:
-      "Bathroom Sink Drain Strainer, All Metal Pop-Up Sink Stopper with Removable Stainless Steel Filter Basket, Universal Bathroom Hair Catcher Fit for 1.1-2.36\" Drain (Gold, 1 Pack)",
+      "Bathroom Sink Drain Strainer, All Metal Pop-Up Sink Stopper with Removable Stainless Steel Filter Basket, Universal Bathroom Hair Catcher Fit for 1.1-2.36\" Drain (Black, 1 Pack)",
     brand: "Tekloem",
     soldBy: "Tekloem Direct",
     shipsFrom: "Amazon",
@@ -484,22 +484,22 @@ export const products = [
       "Sink & Bathtub Drains",
       "Sink Drains",
     ],
-    image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=900&h=900&fit=crop&auto=format&q=80",
-    colors: ["Gold", "Silver"],
+    image: "/products/tekloem-sink-drain-stopper.jpg",
+    colors: ["Black", "Gold", "Silver"],
     description:
-      "An all-metal pop-up sink drain strainer with a removable stainless-steel filter basket, engineered for a secure universal fit on 1.1–2.36 inch bathroom sink drains. Solid brass construction resists corrosion and won't yellow or crack like plastic stoppers.",
+      "An all-metal pop-up sink drain strainer with a removable stainless-steel filter basket, engineered for a secure universal fit on 1.1–2.36 inch bathroom sink drains. Solid SUS304 stainless-steel construction resists corrosion and won't yellow or crack like plastic stoppers.",
     bullets: [
-      "All-metal construction: solid brass body plated in a durable gold finish that resists rust, corrosion, and everyday wear",
+      "All-metal construction: solid SUS304 stainless-steel body in a durable matte-black finish that resists rust, corrosion, and everyday wear",
       "Removable stainless-steel filter basket catches hair and debris before it clogs your pipes, and lifts out in seconds for easy cleaning",
       "Universal fit: pop-up stopper mechanism fits most standard bathroom sink drains from 1.1 to 2.36 inches in diameter",
       "Tool-free installation: no plumber required — simply drop it in and adjust the pivot rod for a secure, leak-free seal",
-      "Elevates any bathroom: polished gold finish adds a refined, hotel-style touch to your sink and vanity",
+      "Elevates any bathroom: sleek matte-black finish adds a modern, designer touch to your sink and vanity",
     ],
     specs: [
       ["Brand", "Tekloem"],
-      ["Color", "Gold"],
-      ["Material", "Solid Brass, Stainless Steel Basket"],
-      ["Finish Type", "Gold"],
+      ["Color", "Black"],
+      ["Material", "SUS304 Stainless Steel"],
+      ["Finish Type", "Matte Black"],
       ["Compatible groove diameter", "1.1–2.36 inches"],
     ],
     deal: true,
