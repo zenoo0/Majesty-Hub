@@ -19,7 +19,7 @@ export const heroSlides = [
     text: "Discover handcrafted home essentials, next-gen electronics, and exclusive designer apparel with up to 40% off.",
     cta: "Explore Curated Deals",
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCwnq8_SbH351cyxDZ2hTnKLH9XXnqnsObwqBYCpTHWDgmeWl8ykpo5oepBlZFPAukFrEGpQ0s8f0ezdXUX36SHSbpXkPzPoA3dRUagJH6qmViCuXmpHstDPfqd1ZamgXTHKvmWJiSHLBiwr0mGUkCJdCIPRqHrjGUGQ0htlWwoueKeIYLjz31-Mh55TWgZN7wMYBHzQCW6PEa5YxVc8ENyp43csEHI9qLOicQ5Dw5z",
+      "https://images.pexels.com/photos/5625003/pexels-photo-5625003.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ export const heroSlides = [
     text: "Immersive spatial sound, all-day battery life, and premium build quality from our top electronics partners.",
     cta: "Shop Electronics",
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD1j2XnS1iQPEtECFnpyooHT0WKsiq1A4-K60WNWHZ6sw6lsqaKyLRY4_kkJ81YEuLWQ53hWc86PIc9-QEOh5RxGQeVjklYO8YisxphAo2l6VcMdMrtaXwHKTcL64avfeCpDJNRJY-UOo5Z84lphvtPS00BGORZA8NTTZOiIrKgENxwb9F_U1ChgLQjNK4yVYRZDbrbp-ewXFfrPQFG5DEevbr9kJRR4C2DrpIIZV9I",
+      "https://images.pexels.com/photos/7986992/pexels-photo-7986992.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const heroSlides = [
     text: "From artisan espresso machines to premium cookware — everything you need for the perfect home upgrade.",
     cta: "Browse Home & Kitchen",
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBFoYkfiJSq3tVFFkn1DLiuujT7p8mINyjZukru1RGR8xEYNyldr5w8jIg1yzWRx_Q-p0YAsCa7GpjZ4sDian5Kx1NOtmIswCEhO7cMOMS2xa4eYjDoqvk-vYrC7mXGjTuxS7-qMSToFB0M8AWTm5BfnYGZpx7OkOVGGuA02CdX4-x17HKOkrOM33hBMrfXYwy2yadUhGyBE8u2_bQioMH7jpSmpzNZ4XAwOW-zQqAo",
+      "https://images.pexels.com/photos/7986994/pexels-photo-7986994.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
 ];
 
