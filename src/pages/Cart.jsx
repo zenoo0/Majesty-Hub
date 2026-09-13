@@ -79,7 +79,7 @@ export default function Cart() {
                 </div>
               </div>
               <span className="bg-secondary-container text-on-secondary-container px-space-md py-space-xs rounded-full text-xs font-bold">
-                Majestic Pass
+                Majesty Pass
               </span>
             </div>
 

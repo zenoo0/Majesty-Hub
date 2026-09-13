@@ -1,4 +1,4 @@
-// Master product catalog for the Majestic Hub Marketplace demo.
+// Master product catalog for the Majesty Hub Marketplace demo.
 // Every product has a stable id, a full category breadcrumb, and enough
 // detail (bullets/specs/gallery) to power a real product-detail page.
 
@@ -29,6 +29,15 @@ export const heroSlides = [
     cta: "Browse Home & Kitchen",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBFoYkfiJSq3tVFFkn1DLiuujT7p8mINyjZukru1RGR8xEYNyldr5w8jIg1yzWRx_Q-p0YAsCa7GpjZ4sDian5Kx1NOtmIswCEhO7cMOMS2xa4eYjDoqvk-vYrC7mXGjTuxS7-qMSToFB0M8AWTm5BfnYGZpx7OkOVGGuA02CdX4-x17HKOkrOM33hBMrfXYwy2yadUhGyBE8u2_bQioMH7jpSmpzNZ4XAwOW-zQqAo",
+  },
+  {
+    id: 4,
+    tag: "Mega Sale",
+    title: "Weekend Sale Blowout",
+    text: "Huge markdowns storewide — score doorbuster prices on electronics, home goods, and top-rated favorites before they're gone.",
+    cta: "Shop Flash Deals",
+    image:
+      "https://images.unsplash.com/photo-1572584642822-6f8de0243c93?w=1600&h=900&fit=crop&auto=format&q=80",
   },
 ];
 
@@ -399,7 +408,7 @@ export const products = [
     price: 65.0,
     rating: 4.5,
     reviews: 92,
-    badge: "Popular",
+    badge: "Popular for Shopping",
     category: ["Home & Kitchen", "Coffee & Espresso", "Kettles"],
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuC_JtMIx97KO39ahVCjCJvDeGVj0DJt4zd9rLqdc5Zo_2s235DD0oqGx8XBVrWtzJP5g2IIGFcG7AlreL6ZfKBSHQPg8lQ3WLyb84Uw1OAhD8bllKXXAK6XwQk1v_zqMCrUYqmWLO-qCDgbhnrbN7CSOMNJPdNFHU6_Gu--Zo_Ur5PtXO8zuSUu0LD5dnevSzkdxqFKO38bO4yr3lE7JeGcGRNEuT0ct_zsNRrV1AN_",

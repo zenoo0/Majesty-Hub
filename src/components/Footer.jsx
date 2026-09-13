@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="w-full bg-surface-container-low py-space-xl mt-space-xl">
       <div className="max-w-7xl mx-auto px-4 md:px-gutter grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-space-lg text-on-surface-variant">
         <div className="flex flex-col gap-space-sm">
-          <h4 className="font-headline text-on-surface font-bold">About Majestic Hub</h4>
+          <h4 className="font-headline text-on-surface font-bold">About Majesty Hub</h4>
           <a className="text-sm hover:underline" href="#">Our Company</a>
           <a className="text-sm hover:underline" href="#">Store Directory</a>
           <a className="text-sm hover:underline" href="#">Careers</a>
@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-space-sm">
           <h4 className="font-headline text-on-surface font-bold">Services</h4>
-          <a className="text-sm hover:underline" href="#">Majestic Financial Services</a>
+          <a className="text-sm hover:underline" href="#">Majesty Financial Services</a>
           <a className="text-sm hover:underline" href="#">Pharmacy</a>
           <a className="text-sm hover:underline" href="#">Photo Center</a>
         </div>
@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 md:px-gutter mt-space-lg pt-space-md border-t border-surface-variant text-center text-sm text-on-surface-variant">
-        © 2024 Majestic Hub Stores, Inc. All Rights Reserved.
+        © 2024 Majesty Hub Stores, Inc. All Rights Reserved.
       </div>
     </footer>
   );

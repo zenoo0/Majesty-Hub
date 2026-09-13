@@ -37,7 +37,7 @@ export default function Header() {
             <strong>New York 10001</strong>
           </span>
           <span className="hidden md:inline">|</span>
-          <span className="hidden md:inline">Store: Majestic Supercenter #492</span>
+          <span className="hidden md:inline">Store: Majesty Supercenter #492</span>
         </div>
         <div className="flex items-center gap-space-md">
           <Link to="/brand/techhub" className="hover:underline hidden sm:inline">
@@ -55,14 +55,14 @@ export default function Header() {
             MH
           </div>
           <span className="font-headline text-lg md:text-xl font-bold tracking-tight text-primary hidden sm:inline">
-            Majestic Hub
+            Majesty Hub
           </span>
         </Link>
 
         <div className="flex-1 max-w-2xl relative hidden md:block">
           <input
             className="w-full bg-surface-container-high rounded-full py-space-sm pl-space-lg pr-12 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-            placeholder="Search everything at Majestic Hub online & in store..."
+            placeholder="Search everything at Majesty Hub online & in store..."
             type="text"
           />
           <button className="absolute right-1 top-1/2 -translate-y-1/2 bg-primary text-on-primary p-space-sm rounded-full">

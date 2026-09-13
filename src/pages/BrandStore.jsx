@@ -131,8 +131,8 @@ export default function BrandStore() {
             <h3 className="font-headline text-base font-bold text-on-surface">Store Policies</h3>
             <div className="flex flex-col gap-space-md text-sm text-on-surface-variant">
               {[
-                ["local_shipping", "Free Express Delivery", "Guaranteed 2-day delivery on orders over $50 fulfilled by Majestic Hub."],
-                ["assignment_return", "30-Day Hassle-Free Returns", "Full refunds with free drop-off at any Majestic Supercenter location."],
+                ["local_shipping", "Free Express Delivery", "Guaranteed 2-day delivery on orders over $50 fulfilled by Majesty Hub."],
+                ["assignment_return", "30-Day Hassle-Free Returns", "Full refunds with free drop-off at any Majesty Supercenter location."],
                 ["shield", "2-Year Warranty", "Direct manufacturer replacement coverage included with every purchase."],
               ].map(([icon, title, text]) => (
                 <div key={title} className="flex items-start gap-space-sm">
