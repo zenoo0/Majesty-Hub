@@ -4,40 +4,40 @@
 
 export const heroSlides = [
   {
-    id: 4,
-    tag: "Mega Sale",
-    title: "Weekend Sale Blowout",
-    text: "Huge markdowns storewide — score doorbuster prices on electronics, home goods, and top-rated favorites before they're gone.",
-    cta: "Shop Flash Deals",
-    image:
-      "https://images.pexels.com/photos/7987751/pexels-photo-7987751.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  },
-  {
     id: 1,
-    tag: "Seasonal Event",
-    title: "The Grand Autumn Collection",
-    text: "Discover handcrafted home essentials, next-gen electronics, and exclusive designer apparel with up to 40% off.",
-    cta: "Explore Curated Deals",
-    image:
-      "https://images.pexels.com/photos/5625003/pexels-photo-5625003.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    alt: "Fall Into Savings — tiered storewide discounts",
+    link: "#flash-deals",
+    image: "/banners/september_26_tiered_deal_desktop_banner.webp",
   },
   {
     id: 2,
-    tag: "New Drop",
-    title: "Next-Gen Audio & Wearables",
-    text: "Immersive spatial sound, all-day battery life, and premium build quality from our top electronics partners.",
-    cta: "Shop Electronics",
-    image:
-      "https://images.pexels.com/photos/7986992/pexels-photo-7986992.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    alt: "Noah's Ark authentic Italian vinegars",
+    link: "/category/grocery",
+    image: "/banners/na_vinegars_desktop_banner.webp",
   },
   {
     id: 3,
-    tag: "Trending Now",
-    title: "Elevate Your Home & Kitchen",
-    text: "From artisan espresso machines to premium cookware — everything you need for the perfect home upgrade.",
-    cta: "Browse Home & Kitchen",
-    image:
-      "https://images.pexels.com/photos/7986994/pexels-photo-7986994.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    alt: "Sirab natural mineral water, now at Jetro",
+    link: "/category/grocery",
+    image: "/banners/sirab_jetro_desktop_banner.webp",
+  },
+  {
+    id: 4,
+    alt: "Colgate savings on MaxFresh toothpaste",
+    link: "/category/health-household",
+    image: "/banners/colgate_sept_26_desktop_banner.webp",
+  },
+  {
+    id: 5,
+    alt: "Labor Day savings for your shelves",
+    link: "#flash-deals",
+    image: "/banners/september_special_26_desktop_banner_v3.webp",
+  },
+  {
+    id: 6,
+    alt: "Stock up on Puffs tissues for cold season",
+    link: "/category/health-household",
+    image: "/banners/puffs_26_desktop_banner.webp",
   },
 ];
 

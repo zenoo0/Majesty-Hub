@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Icon from "./Icon";
 import { heroSlides } from "../data/products";
 
@@ -21,10 +22,13 @@ export default function HeroCarousel() {
   }
 
   const slide = heroSlides[index];
+  const isInternalLink = slide.link?.startsWith("/");
+  const SlideLink = isInternalLink ? Link : "a";
+  const linkProps = isInternalLink ? { to: slide.link } : { href: slide.link || "#" };
 
   return (
     <section className="w-full max-w-7xl mx-auto px-4 md:px-gutter py-space-md">
-      <div className="relative w-full h-[340px] md:h-[420px] rounded-xl overflow-hidden bg-primary-container text-on-primary flex items-center shadow-xl">
+      <div className="relative w-full aspect-[3/1] rounded-xl overflow-hidden bg-primary-container text-on-primary flex items-center shadow-xl">
         <AnimatePresence mode="wait" initial={false} custom={direction}>
           <motion.div
             key={slide.id}
@@ -33,30 +37,15 @@ export default function HeroCarousel() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: direction * -60 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
-            className="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-overlay"
-            style={{ backgroundImage: `url('${slide.image}')` }}
-          />
-        </AnimatePresence>
-
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={slide.id + "-copy"}
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -16 }}
-            transition={{ duration: 0.4 }}
-            className="relative z-10 max-w-xl px-6 md:px-space-xl flex flex-col items-start gap-space-md"
+            className="absolute inset-0"
           >
-            <span className="bg-secondary text-on-secondary px-space-md py-space-xs rounded-full text-xs uppercase tracking-wider font-bold">
-              {slide.tag}
-            </span>
-            <h1 className="font-headline text-3xl md:text-5xl font-bold text-on-primary leading-tight">
-              {slide.title}
-            </h1>
-            <p className="text-sm md:text-base text-primary-fixed-dim max-w-md">{slide.text}</p>
-            <button className="bg-secondary text-on-secondary px-space-lg py-space-sm rounded-full font-medium hover:brightness-110 transition-all shadow-md">
-              {slide.cta}
-            </button>
+            <SlideLink {...linkProps} className="block w-full h-full">
+              <img
+                src={slide.image}
+                alt={slide.alt || ""}
+                className="w-full h-full object-cover"
+              />
+            </SlideLink>
           </motion.div>
         </AnimatePresence>
 
