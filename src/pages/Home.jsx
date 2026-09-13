@@ -52,6 +52,37 @@ export default function Home() {
     <div className="flex flex-col w-full">
       <HeroCarousel />
 
+      {/* Great Sales Promo Banner */}
+      <AnimatedSection className="w-full">
+        <div className="w-full bg-gradient-to-r from-error via-error to-secondary text-on-error relative overflow-hidden">
+          <div className="max-w-7xl mx-auto px-4 md:px-gutter py-space-xl flex flex-col lg:flex-row items-center justify-between gap-space-lg relative z-10">
+            <div className="flex flex-col gap-space-sm text-center lg:text-left">
+              <span className="inline-flex items-center gap-space-xs self-center lg:self-start bg-surface/20 backdrop-blur-sm px-space-md py-space-xs rounded-full text-xs font-bold uppercase tracking-wider w-max mx-auto lg:mx-0">
+                <Icon name="sell" className="text-sm" /> Storewide Event
+              </span>
+              <h2 className="font-headline text-3xl md:text-5xl font-black uppercase tracking-tight leading-tight">
+                The Great Sales by Majesty Hub
+              </h2>
+              <p className="text-sm md:text-base text-on-error/90 max-w-xl">
+                Doorbuster prices across electronics, home, apparel & more — the more you shop, the more you save. Limited-time storewide markdowns, refreshed daily.
+              </p>
+            </div>
+            <div className="flex items-center gap-space-md shrink-0">
+              <div className="hidden sm:flex flex-col items-center bg-surface/15 backdrop-blur-sm rounded-xl px-space-lg py-space-md">
+                <span className="font-headline text-3xl md:text-4xl font-black">70%</span>
+                <span className="text-xs uppercase tracking-wide">Up To Off</span>
+              </div>
+              <a
+                href="#flash-deals"
+                className="bg-surface text-on-surface px-space-lg py-space-md rounded-full font-bold hover:brightness-95 transition-all shadow-lg whitespace-nowrap"
+              >
+                Shop Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </AnimatedSection>
+
       {/* Shop by department */}
       <AnimatedSection className="w-full max-w-7xl mx-auto px-4 md:px-gutter py-space-lg">
         <div className="flex justify-between items-center mb-space-md">
