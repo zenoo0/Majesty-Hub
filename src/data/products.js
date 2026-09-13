@@ -4,6 +4,15 @@
 
 export const heroSlides = [
   {
+    id: 4,
+    tag: "Mega Sale",
+    title: "Weekend Sale Blowout",
+    text: "Huge markdowns storewide — score doorbuster prices on electronics, home goods, and top-rated favorites before they're gone.",
+    cta: "Shop Flash Deals",
+    image:
+      "https://images.pexels.com/photos/7987751/pexels-photo-7987751.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  },
+  {
     id: 1,
     tag: "Seasonal Event",
     title: "The Grand Autumn Collection",
@@ -29,15 +38,6 @@ export const heroSlides = [
     cta: "Browse Home & Kitchen",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBFoYkfiJSq3tVFFkn1DLiuujT7p8mINyjZukru1RGR8xEYNyldr5w8jIg1yzWRx_Q-p0YAsCa7GpjZ4sDian5Kx1NOtmIswCEhO7cMOMS2xa4eYjDoqvk-vYrC7mXGjTuxS7-qMSToFB0M8AWTm5BfnYGZpx7OkOVGGuA02CdX4-x17HKOkrOM33hBMrfXYwy2yadUhGyBE8u2_bQioMH7jpSmpzNZ4XAwOW-zQqAo",
-  },
-  {
-    id: 4,
-    tag: "Mega Sale",
-    title: "Weekend Sale Blowout",
-    text: "Huge markdowns storewide — score doorbuster prices on electronics, home goods, and top-rated favorites before they're gone.",
-    cta: "Shop Flash Deals",
-    image:
-      "https://images.pexels.com/photos/7986987/pexels-photo-7986987.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
 ];
 
