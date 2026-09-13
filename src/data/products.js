@@ -37,7 +37,7 @@ export const heroSlides = [
     text: "Huge markdowns storewide — score doorbuster prices on electronics, home goods, and top-rated favorites before they're gone.",
     cta: "Shop Flash Deals",
     image:
-      "https://images.unsplash.com/photo-1572584642822-6f8de0243c93?w=1600&h=900&fit=crop&auto=format&q=80",
+      "https://images.pexels.com/photos/7986987/pexels-photo-7986987.jpeg?auto=compress&cs=tinysrgb&w=1600",
   },
 ];
 
